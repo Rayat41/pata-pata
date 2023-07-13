@@ -1,0 +1,307 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+}
+
+/* header section style */
+
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.1);
+  height: 81vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 180px;
+  padding-top: 57px;
+}
+
+.banner-heading {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #272727;
+  margin: 0px;
+}
+
+.banner-paragraph {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  margin: 32px 0px;
+}
+
+.btn-banner {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+  font-family: Lato;
+}
+
+/* main section style */
+
+/* Bonus section */
+
+.first-section {
+  height: 90vh;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.bonus-div {
+  align-content: center;
+  margin-bottom: 100px;
+}
+
+.bonus-head {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 130px;
+}
+
+.bonus-para {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.flowers-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-img {
+  width: 464px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  margin: 0px 10px 20px;
+
+  /* padding-top: 50px; */
+}
+
+.img-1 {
+  margin-top: 70px;
+}
+
+.img-2 {
+  margin-top: 100px;
+}
+
+.img-3 {
+  margin-top: 30px;
+}
+
+.flower {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+/* main section second part style */
+
+.second-section {
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  width: 1922px;
+  height: 620px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.hot-deal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.second-head {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+}
+
+#off-color {
+  color: #e55473;
+}
+
+.second-btn {
+  padding: 20px 43px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  cursor: pointer;
+}
+
+.second-para {
+  margin: 24px 0px 32px 0px;
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hot-deal-img {
+  margin-left: 70px;
+}
+
+/* footer section style */
+
+.footer {
+  background-color: #111010;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 1922px;
+  height: 449px;
+}
+
+.footer-head {
+  color: #e55473;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+}
+
+.footer-shop {
+  color: #fff;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-para {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* main section third part style */
+
+.third-section {
+  height: 70vh;
+}
+
+.latest-deals {
+  width: 1440px;
+  height: 449px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./flower-asset/rectangle-9.png');
+  margin: auto;
+  margin-top: 220px;
+}
+
+.third-head {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: auto;
+}
+
+.third-para {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0px 50px 0px;
+}
+
+.third-email {
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+
+  color: rgba(39, 39, 39, 0.6);
+  text-align: 23px 513px 22px 22px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.third-btn {
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+
+  color: #fff;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
